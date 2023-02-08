@@ -1,10 +1,6 @@
-<Project Sdk="Microsoft.NET.Sdk">
+//Показать вторую цифру трёхзначного числа
+Console.WriteLine("Enter number: ");
+string a = Console.ReadLine();
+Console.WriteLine("Last character: " + a[1]);
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
 
-</Project>
